@@ -1,0 +1,5 @@
+/secrets
+
+    ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
+    # your secret token to access line bot webhook get from line developer
+    SERCRET = os.getenv("LINE_CHANNEL_SECRET")
