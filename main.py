@@ -56,6 +56,6 @@ def handling_message(event):
         #     reply_token=replyToken, messages=echoMessages)
 
 
-if __name__ == '__main__':
-    server_port = int(os.environ.get('PORT', Config.PORT))
-    uvicorn.run(app, host=Config.HOST, port=server_port, log_level="info")
+# if __name__ == '__main__':
+#     server_port = int(os.environ.get('PORT', Config.PORT))
+#     uvicorn.run(app, host=Config.HOST, port=server_port, log_level="info")
