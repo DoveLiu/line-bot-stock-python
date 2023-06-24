@@ -17,9 +17,11 @@ from service.messageRead import messageRead
 
 # Line Bot config
 # your access token to line bot which get from line biz
+print('111')
 accessToken = LineConfig.ACCESS_TOKEN
 # your secret token to access line bot webhook get from line developer
 secret = LineConfig.SERCRET
+print('22')
 
 app = FastAPI()
 
