@@ -12,6 +12,6 @@ class messageRead():
             stock_symbol = message[2:]
             stock_info = YahooStock.get_stock_info(stock_symbol)
             if not stock_info:
-                return
+                stock_info = '查無此股票資料'
             LineMessage.send(event, stock_info)
             print('stock_info\n' + stock_info)
